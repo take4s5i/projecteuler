@@ -26,5 +26,3 @@
   (->> (palindromeics 999)
        (filter (partial creatable? 1000))
        (first)))
-
-(solve)
